@@ -1,9 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2023-10-17T04:18:48.853Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" version="22.0.4" etag="e2vBRCJdBHdqnRGrPw9w" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-17T04:24:16.437Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="ym7fOwHzDr0vwkm-1EEF" version="22.0.4" type="github">
   <diagram name="Page-1" id="6WWkvk07TOEXUA9jsyGb">
-    <mxGraphModel>
+    <mxGraphModel dx="1760" dy="940" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="pauhV3FymcBSxGFEf9ED-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pauhV3FymcBSxGFEf9ED-1" target="pauhV3FymcBSxGFEf9ED-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pauhV3FymcBSxGFEf9ED-1" value="START" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="360" y="110" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pauhV3FymcBSxGFEf9ED-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pauhV3FymcBSxGFEf9ED-2" target="pauhV3FymcBSxGFEf9ED-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pauhV3FymcBSxGFEf9ED-2" value="&lt;div&gt;LO&lt;/div&gt;&lt;div&gt;PHI&lt;/div&gt;&lt;div&gt;d&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="350" y="210" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pauhV3FymcBSxGFEf9ED-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pauhV3FymcBSxGFEf9ED-3" target="pauhV3FymcBSxGFEf9ED-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pauhV3FymcBSxGFEf9ED-3" value="LO= PHI X d" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="330" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pauhV3FymcBSxGFEf9ED-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pauhV3FymcBSxGFEf9ED-4" target="pauhV3FymcBSxGFEf9ED-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pauhV3FymcBSxGFEf9ED-4" value="PHI X d" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="480" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pauhV3FymcBSxGFEf9ED-5" value="LO" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="350" y="613" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pauhV3FymcBSxGFEf9ED-6" value="END" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="360" y="750" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pauhV3FymcBSxGFEf9ED-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=-15;entryPerimeter=0;" edge="1" parent="1" source="pauhV3FymcBSxGFEf9ED-5" target="pauhV3FymcBSxGFEf9ED-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
